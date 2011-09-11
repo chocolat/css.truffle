@@ -1,0 +1,8 @@
+(name [font-variant: normal/small-caps])
+
+(trigger
+    (tab font))
+
+(only-in source.css)
+
+(snippet [font-variant: %{1="normal/small-caps"};%{0}])

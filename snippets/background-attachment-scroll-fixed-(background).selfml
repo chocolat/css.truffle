@@ -1,0 +1,8 @@
+(name [background-attachment: scroll/fixed])
+
+(trigger
+    (tab background))
+
+(only-in source.css)
+
+(snippet [background-attachment: %{1="scroll/fixed"};%{0}])

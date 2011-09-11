@@ -1,0 +1,8 @@
+(name [margin: T R B L])
+
+(trigger
+    (tab margin))
+
+(only-in source.css)
+
+(snippet [margin: %{1="20px"} %{2="0px"} %{3="40px"} %{4="0px"};%{0}])

@@ -1,0 +1,8 @@
+(name [border-top-color: color])
+
+(trigger
+    (tab border))
+
+(only-in source.css)
+
+(snippet [border-top-color: #%{1="999"};%{0}])

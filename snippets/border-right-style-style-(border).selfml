@@ -1,0 +1,8 @@
+(name [border-right-style: style])
+
+(trigger
+    (tab border))
+
+(only-in source.css)
+
+(snippet [border-right-style: %{1="none/hidden/dotted/dashed/solid/double/groove/ridge/inset/outset"};%{0}])

@@ -1,0 +1,8 @@
+(name [border-left-width: size])
+
+(trigger
+    (tab border))
+
+(only-in source.css)
+
+(snippet [border-left-width: %{1="1"}px])

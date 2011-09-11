@@ -1,0 +1,8 @@
+(name [list-style-position: pos])
+
+(trigger
+    (tab list))
+
+(only-in source.css)
+
+(snippet [list-style-position: %{1="inside/outside"};%{0}])

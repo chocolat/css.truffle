@@ -1,0 +1,8 @@
+(name [float: left/right/none])
+
+(trigger
+    (tab float))
+
+(only-in source.css)
+
+(snippet [float: %{1="left/right/none"};%{0}])

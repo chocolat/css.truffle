@@ -1,0 +1,8 @@
+(name [border-left: size style color])
+
+(trigger
+    (tab border))
+
+(only-in source.css)
+
+(snippet [border-left: %{1="1"}px %{2="solid"} #%{3="999"};%{0}])

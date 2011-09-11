@@ -1,0 +1,8 @@
+(name [direction: ltr/rtl])
+
+(trigger
+    (tab direction))
+
+(only-in source.css)
+
+(snippet [direction: %{1="ltr|rtl"};%{0}])

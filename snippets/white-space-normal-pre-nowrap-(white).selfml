@@ -1,0 +1,8 @@
+(name [white-space: normal/pre/nowrap])
+
+(trigger
+    (tab white))
+
+(only-in source.css)
+
+(snippet [white-space: %{1="normal/pre/nowrap"};%{0}])

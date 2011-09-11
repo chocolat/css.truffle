@@ -1,0 +1,8 @@
+(name [text-align: left/center/right])
+
+(trigger
+    (tab text))
+
+(only-in source.css)
+
+(snippet [text-align: %{1="left/right/center/justify"};%{0}])

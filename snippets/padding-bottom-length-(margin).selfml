@@ -1,0 +1,8 @@
+(name [padding-bottom: length])
+
+(trigger
+    (tab padding))
+
+(only-in source.css)
+
+(snippet [padding-bottom: %{1="20px"};%{0}])

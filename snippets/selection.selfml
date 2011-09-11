@@ -1,0 +1,12 @@
+(name selection)
+
+(trigger
+    (tab selection))
+
+(only-in [source.css -meta.property-list])
+
+(snippet [%{1}::-moz-selection,
+%{1}::selection {
+	color: %{2="inherit"};
+	background: %{3="inherit"};
+}])

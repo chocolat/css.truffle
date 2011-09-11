@@ -1,0 +1,8 @@
+(name [letter-spacing: em])
+
+(trigger
+    (tab letter))
+
+(only-in source.css)
+
+(snippet [letter-spacing: %{1}em;%{0}])

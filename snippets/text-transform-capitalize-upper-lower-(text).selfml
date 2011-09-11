@@ -1,0 +1,8 @@
+(name [text-transform: capitalize/upper/lower])
+
+(trigger
+    (tab text))
+
+(only-in source.css)
+
+(snippet [text-transform: %{1="capitalize/uppercase/lowercase"};%{0}])

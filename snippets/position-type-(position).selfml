@@ -1,0 +1,8 @@
+(name [position: type])
+
+(trigger
+    (tab position))
+
+(only-in source.css)
+
+(snippet [position: %{1="static/relative/absolute/fixed"};%{0}])

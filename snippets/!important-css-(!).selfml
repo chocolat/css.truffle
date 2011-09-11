@@ -1,0 +1,8 @@
+(name [!important CSS])
+
+(trigger
+    (tab !))
+
+(only-in source.css)
+
+(snippet [%{1="!important"}])

@@ -1,0 +1,9 @@
+(name [filter: AlphaImageLoader [for IE PNGs]])
+
+(trigger
+    (tab background))
+
+(only-in source.css)
+
+(snippet [%{3="background-image: none;
+"}filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='%{1="%{TM_SELECTED_TEXT="/images/transparent.png"}"}', sizingMethod='%{2="image/scale/crop"}');])

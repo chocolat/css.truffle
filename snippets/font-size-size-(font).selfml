@@ -1,0 +1,8 @@
+(name [font-size: size])
+
+(trigger
+    (tab font))
+
+(only-in source.css)
+
+(snippet [font-size: %{1="100%"};%{0}])

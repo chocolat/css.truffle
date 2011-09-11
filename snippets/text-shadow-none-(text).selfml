@@ -1,0 +1,8 @@
+(name [text-shadow: none])
+
+(trigger
+    (tab text))
+
+(only-in source.css)
+
+(snippet [text-shadow: none;%{0}])

@@ -1,0 +1,8 @@
+(name [background-color: transparent])
+
+(trigger
+    (tab background))
+
+(only-in source.css)
+
+(snippet [background-color: transparent;%{0}])

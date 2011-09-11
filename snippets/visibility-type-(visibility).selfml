@@ -1,0 +1,8 @@
+(name [visibility: type])
+
+(trigger
+    (tab visibility))
+
+(only-in source.css)
+
+(snippet [visibility: %{1="visible/hidden/collapse"};%{0}])

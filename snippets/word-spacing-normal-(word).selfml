@@ -1,0 +1,8 @@
+(name [word-spacing: normal])
+
+(trigger
+    (tab word))
+
+(only-in source.css)
+
+(snippet [word-spacing: normal;%{0}])

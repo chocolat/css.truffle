@@ -1,0 +1,8 @@
+(name [font-style: normal/italic/oblique])
+
+(trigger
+    (tab font))
+
+(only-in source.css)
+
+(snippet [font-style: %{1="normal/italic/oblique"};%{0}])

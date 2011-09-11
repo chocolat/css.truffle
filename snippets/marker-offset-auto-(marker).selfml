@@ -1,0 +1,8 @@
+(name [marker-offset: auto])
+
+(trigger
+    (tab marker))
+
+(only-in source.css)
+
+(snippet [marker-offset: auto;%{0}])

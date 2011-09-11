@@ -1,0 +1,8 @@
+(name [word-spacing: length])
+
+(trigger
+    (tab word))
+
+(only-in source.css)
+
+(snippet [word-spacing: %{1="10px"};%{0}])

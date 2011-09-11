@@ -1,0 +1,8 @@
+(name [background-color: hex])
+
+(trigger
+    (tab background))
+
+(only-in source.css)
+
+(snippet [background-color: #%{1="DDD"};%{0}])

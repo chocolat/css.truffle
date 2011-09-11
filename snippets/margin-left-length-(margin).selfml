@@ -1,0 +1,8 @@
+(name [margin-left: length])
+
+(trigger
+    (tab margin))
+
+(only-in source.css)
+
+(snippet [margin-left: %{1="20px"};%{0}])

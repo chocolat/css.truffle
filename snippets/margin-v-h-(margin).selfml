@@ -1,0 +1,8 @@
+(name [margin: V H])
+
+(trigger
+    (tab margin))
+
+(only-in source.css)
+
+(snippet [margin: %{1="20px"} %{2="0px"};%{0}])

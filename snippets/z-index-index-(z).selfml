@@ -1,0 +1,8 @@
+(name [z-index: index])
+
+(trigger
+    (tab z))
+
+(only-in source.css)
+
+(snippet [z-index: %{1};%{0}])

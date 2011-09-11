@@ -1,0 +1,8 @@
+(name [font: size font])
+
+(trigger
+    (tab font))
+
+(only-in source.css)
+
+(snippet [font: %{1="75%"} %{2=""Lucida Grande", "Trebuchet MS", Verdana,"} %{3="sans-"}serif;%{0}])

@@ -1,0 +1,8 @@
+(name [font-weight: weight])
+
+(trigger
+    (tab font))
+
+(only-in source.css)
+
+(snippet [font-weight: %{1="normal/bold"};%{0}])

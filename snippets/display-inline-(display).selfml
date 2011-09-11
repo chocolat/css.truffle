@@ -1,0 +1,8 @@
+(name [display: inline])
+
+(trigger
+    (tab display))
+
+(only-in source.css)
+
+(snippet [display: inline;%{0}])

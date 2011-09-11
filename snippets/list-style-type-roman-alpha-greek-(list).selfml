@@ -1,0 +1,8 @@
+(name [list-style-type: roman-alpha-greek])
+
+(trigger
+    (tab list))
+
+(only-in source.css)
+
+(snippet [list-style-type: %{1="lower-roman/upper-roman/lower-alpha/upper-alpha/lower-greek/lower-latin/upper-latin"};%{0}])

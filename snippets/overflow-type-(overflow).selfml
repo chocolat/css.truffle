@@ -1,0 +1,8 @@
+(name [overflow: type])
+
+(trigger
+    (tab overflow))
+
+(only-in source.css)
+
+(snippet [overflow: %{1="visible/hidden/scroll/auto"};%{0}])

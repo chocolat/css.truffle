@@ -1,0 +1,8 @@
+(name [text-indent: length])
+
+(trigger
+    (tab text))
+
+(only-in source.css)
+
+(snippet [text-indent: %{1="10"}px;%{0}])

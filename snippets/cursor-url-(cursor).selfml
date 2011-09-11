@@ -1,0 +1,8 @@
+(name [cursor: url])
+
+(trigger
+    (tab cursor))
+
+(only-in source.css)
+
+(snippet [cursor: url(%{1});%{0}])

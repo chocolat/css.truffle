@@ -1,0 +1,8 @@
+(name [background-image: none])
+
+(trigger
+    (tab background))
+
+(only-in source.css)
+
+(snippet [background-image: none;%{0}])

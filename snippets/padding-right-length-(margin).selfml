@@ -1,0 +1,8 @@
+(name [padding-right: length])
+
+(trigger
+    (tab padding))
+
+(only-in source.css)
+
+(snippet [padding-right: %{1="20px"};%{0}])

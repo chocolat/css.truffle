@@ -1,0 +1,8 @@
+(name [background-repeat: r/r-x/r-y/n-r])
+
+(trigger
+    (tab background))
+
+(only-in source.css)
+
+(snippet [background-repeat: %{1="repeat/repeat-x/repeat-y/no-repeat"};%{0}])

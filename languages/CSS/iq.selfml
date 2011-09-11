@@ -1,0 +1,61 @@
+(detector
+    (extension css)
+    (extension css.erb))
+
+(folding
+    (start [/\*\*(?!\*)|\{\s*($|/\*(?!.*?\*/.*\S))])
+    (stop [(?<!\*)\*\*/|^\s*\}]))
+
+(shell-variables
+    (TM_COMMENT_START /*)
+    (TM_COMMENT_END */)
+    (TM_COMMENT_DISABLE_INDENT yes))
+
+(comment.block /* */)
+
+(in [source.css -meta.property-list])
+
+(pair "
+    "
+    (smart-typing))
+
+(pair “
+    ”
+    (smart-typing))
+
+(pair `[`
+    `]`
+    (smart-typing))
+
+(pair '
+    '
+    (smart-typing))
+
+(pair [`]
+    [`]
+    (smart-typing))
+
+(pair [(]
+    [)]
+    (smart-typing))
+
+(pair [{]
+    [}]
+    (smart-typing))
+
+(in [source.css meta.property-list -meta.property-value])
+
+(in [source.css meta.property-value])
+
+(in [meta.property-list.css -meta.property-value]
+    (pair :
+        ;
+        (smart-typing)))
+
+(in [source.css meta.selector, source.css meta.at-rule.media]
+    (symbol-list
+        (transformation [s/^\s*/CSS: /; s/\s+/ /g])))
+
+(in [source.css comment.block.css -source.css.embedded]
+    (symbol-list
+        (transformation [s/\/\*\*\s*(.*?)\s*\*\//** $1 **/; s/\/\*.*?\*\*\//./; s/\/\*[^\*].*?[^\*]\*\///])))

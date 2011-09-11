@@ -1,0 +1,8 @@
+(name [text-decoration: none/underline/overline/line-through/blink])
+
+(trigger
+    (tab text))
+
+(only-in source.css)
+
+(snippet [text-decoration: %{1="none/underline/overline/line-through/blink"};%{0}])

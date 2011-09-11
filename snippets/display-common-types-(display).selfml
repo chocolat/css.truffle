@@ -1,0 +1,8 @@
+(name [display: common-types])
+
+(trigger
+    (tab display))
+
+(only-in source.css)
+
+(snippet [display: %{1="none/inline/block/list-item/run-in/compact/marker"};%{0}])

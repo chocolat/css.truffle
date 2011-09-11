@@ -1,0 +1,8 @@
+(name [clear: value])
+
+(trigger
+    (tab clear))
+
+(only-in source.css)
+
+(snippet [clear: %{1="left/right/both/none"};%{0}])

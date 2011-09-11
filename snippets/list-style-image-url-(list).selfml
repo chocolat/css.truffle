@@ -1,0 +1,8 @@
+(name [list-style-image: url])
+
+(trigger
+    (tab list))
+
+(only-in source.css)
+
+(snippet [list-style-image: url(%{1});%{0}])

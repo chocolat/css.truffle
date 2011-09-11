@@ -1,0 +1,8 @@
+(name [color: rgb])
+
+(trigger
+    (tab color))
+
+(only-in source.css)
+
+(snippet [color: rgb(%{1="255"},%{2="255"},%{3="255"});%{0}])

@@ -1,0 +1,8 @@
+(name [text-transform: none])
+
+(trigger
+    (tab text))
+
+(only-in source.css)
+
+(snippet [text-transform: none;%{0}])

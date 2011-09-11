@@ -1,0 +1,8 @@
+(name [marker-offset: length])
+
+(trigger
+    (tab marker))
+
+(only-in source.css)
+
+(snippet [marker-offset: %{1="10px"};%{0}])
