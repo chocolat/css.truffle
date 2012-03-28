@@ -5,4 +5,4 @@
 
 (only-in source.css)
 
-(snippet [font-family: %{1="Arial, "MS Trebuchet""}, %{2="sans-"}serif;%{0}])
+(snippet [font-family: %{1="Arial, \"MS Trebuchet\""}, %{2="sans-"}serif;%{0}])

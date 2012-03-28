@@ -3,8 +3,8 @@
     (extension css.erb))
 
 (folding
-    (start [/\*\*(?!\*)|\{\s*($|/\*(?!.*?\*/.*\S))])
-    (stop [(?<!\*)\*\*/|^\s*\}]))
+    (start [/\*\*(?!\*)|\{\s*($|/\*(?!.*?\*/.*\S))|\/\*\s*@group\s*.*\s*\*\/])
+    (stop [(?<!\*)\*\*/|^\s*\}|\/*\s*@end\s*\*\/]))
 
 (shell-variables
     (TM_COMMENT_START /*)

@@ -79,7 +79,7 @@
         (start
             (regex [(?=\{)]))
         (end
-            (regex [\}]
+            (regex [(\})]
                 (1 punctuation.section.property-list.css)))
         (subzones
             (include @rule-list))))
