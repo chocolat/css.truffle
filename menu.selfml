@@ -1,5 +1,4 @@
-(menu command.documentation-for-property
-    command.validate-selected-css
+(menu command.validate-selected-css
     command.preview
     ---
     (submenu Background [snippet.background-color-image-repeat-attachment-position-(background)] --- [snippet.background-color-color-hex-(background)] [snippet.background-color-color-rgb-(background)] [snippet.background-color-color-name-(background)] [snippet.background-color-transparent-(background)] --- [snippet.background-image-url-(background)] [snippet.background-image-none-(background)] --- [snippet.background-attachment-scroll-fixed-(background)] [snippet.background-position-position-(background)] [snippet.background-repeat-r-r-x-r-y-n-r-(background)])
